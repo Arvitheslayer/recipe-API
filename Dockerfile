@@ -1,5 +1,5 @@
 FROM python:3.11.5
-LABEL maintainer="londonappdeveloper.com"
+LABEL maintainer="https://github.com/Arvitheslayer"
 
 ENV PYTHONUNBUFFERED 1
 
