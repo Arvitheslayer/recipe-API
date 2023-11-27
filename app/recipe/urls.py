@@ -1,7 +1,7 @@
 # URL mappings for the recipe myapp.
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from ..recipe import views
+from . import views
 
 router = DefaultRouter
 router.register('recipes', views.RecipeViewSet)
