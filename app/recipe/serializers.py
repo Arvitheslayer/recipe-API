@@ -2,7 +2,7 @@
 
 from rest_framework import serializers
 
-from ..core.models import Recipe
+from core.models import Recipe
 
 
 class RecipeSerializer(serializers.ModelSerializer):
